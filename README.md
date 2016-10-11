@@ -33,6 +33,11 @@ On a Debian derivative (e.g. Ubuntu) these can be installed with:
                     libfontconfig1-dev libgtkmm-2.4-dev libpangomm-1.4-dev \
                     libcairo2-dev libgl-dev libglu-dev cmake
 
+Alternatively, on Fedora, these can be installed with:
+
+    dnf install gcc gcc-c++ libpng zlib json-c-devel fontconfig freetype \
+                gtkmm24-devel pangomm-devel mesa-libGL-devel mesa-libGLU-devel cmake
+
 Before building, check out the necessary submodules:
 
     git submodule update --init extlib/libdxfrw
